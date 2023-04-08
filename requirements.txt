@@ -1,0 +1,9 @@
+Flask==2.0.2
+mysql-connector-python==8.0.32
+python-decouple==3.8
+gunicorn==20.1.0
+greenlet==2.0.2
+gunicorn[eventlet]
+gevent==22.10.2
+gunicorn[gevent]
+waitress==2.1.2
